@@ -8,8 +8,86 @@
 
 body{
     width: 100%;
-    text-align: center;
+    height: 100%;
 }
+
+body{
+    min-height: 520px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Hanken Grotesk;
+    overflow-x: hidden;
+}
+
+.div_contain{
+    width: 100%;
+    max-width: 736px;
+    height: 512px;
+    display: flex;
+   
+}
+
+.first_div{
+    width: 100%;
+    max-width: 368px;
+    height: 100%;
+    padding: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius:  1.9em 1.9em ;
+}
+
+.result_sets{
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+ .attain_div{
+    width: 200px;
+    height: 200px;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+ }
+ .score_attain{
+    font-size: 4.5em;
+    color: hsl(0, 0%, 100%);
+
+ }
+
+ .score_constant{
+    margin-top: -.5em;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+    opacity: .6;
+}
+
+.result_text{
+    margin-top: .8em;
+    padding: 1em;
+}
+
+.title_txt{
+    font-size: 2em;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+
+.txt_comment{
+    margin-top: .8em;
+    font-size: 1.1em;
+    color: hsl(0, 0%, 100%);
+}
+
+/*
 .div_contain{
     border: solid 1px red;
     width: 100%;
@@ -20,7 +98,7 @@ body{
    
 }
 .first_div{
-    /* border: solid 1px ; */
+    
     text-align: center;
     background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-bottom-left-radius: 2em;
@@ -36,7 +114,7 @@ body{
 }
 
 .over_score_div{
-    /* border: solid; */
+    
     margin-inline: auto;
     height: 150px;
     width: 150px;
@@ -57,7 +135,7 @@ body{
 }
 
 .score_attain{
-    /* margin-block: 5em; */
+   
     font-family: Hanken Grotesk;
     color:  hsl(0, 0%, 100%);
     font-weight: 800;
@@ -81,10 +159,10 @@ body{
 }
 
 .txt_comment{
-    /* border: 1px solid black; */
+    
     color: hsl(241, 100%, 89%);
         font-weight: 500;
         font-family: Hanken Grotesk;
        padding: .5em 5em 2em 5em;
       font-size: 19px;
-}
+} */
