@@ -7,9 +7,10 @@
 }
 
 body{
+    margin-top: 5em;
     
     width: 100%;
-    height: 100%;
+    height: 00%;
 }
 
 body{
@@ -19,6 +20,7 @@ body{
     align-items: center;
     font-family: Hanken Grotesk;
     overflow-x: hidden;
+    
 }
 
 .div_contain{
@@ -27,7 +29,8 @@ body{
     max-width: 736px;
     height: 512px;
     display: flex;
-    box-shadow: 15px 15px 80px -25px rgba(0, 0, 0, 0.15)
+    box-shadow: 15px 15px 80px -25px rgba(0, 0, 0, 0.15);
+    border-radius: 0em 1.9em 1.9em 0em;
    
 }
 
@@ -90,15 +93,15 @@ body{
     color: hsl(0, 0%, 100%);
 }
 .summary{
-    border: solid 1px;
-    background-color:hsl(0, 0%, 100%) ;
-    border-radius: 0em 1.9em 1.9em 0em;
+    /* border: solid 1px; */
+    /* background-color:hsl(0, 0%, 100%) ; */
+    
     
     width: 100%;
    
     /* margin-top: 1.5em; */
     max-width: 368px;
-    height: fit-content;
+    /* height: fit-content; */
     padding: 2.5em;
     display: flex;
     flex-wrap: wrap;
