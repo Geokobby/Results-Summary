@@ -187,6 +187,9 @@ body{
    font-weight: 500;
    cursor: pointer;
 }
+.attribution{
+    margin-top: 1em;
+}
 
 .summary_btn:hover{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -228,5 +231,8 @@ body{
         
         .summary_btn{
             width: 100%;
+        }
+        .attribution{
+            margin-inline: auto;
         }
     }
