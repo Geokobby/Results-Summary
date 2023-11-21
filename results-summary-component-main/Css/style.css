@@ -50,12 +50,13 @@ body{
 
 .result_sets{
     font-weight: 500;
+    font-size: 1.5em;
     color: hsl(241, 100%, 89%);
 }
  .attain_div{
     width: 200px;
     height: 200px;
-    margin-top: 2em;
+    margin-block: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,8 +91,9 @@ body{
 
 .txt_comment{
     margin-top: .8em;
+    margin-inline: 1em;
     font-size: 1.1em;
-    color: hsl(0, 0%, 100%);
+    color: hsl(241, 100%, 89%);
 }
 .summary{
     /* border: solid 1px; */
@@ -234,6 +236,11 @@ body{
         }
         .attribution{
             margin-inline: auto;
+        }
+
+        .txt_comment{
+          /* border: solid; */
+          margin-inline: 3em;
         }
     }
 
