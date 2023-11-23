@@ -20,8 +20,8 @@ Screenshot are in a png the screenshot folder
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Geokobby/Results-Summary)
+
 
 ## My process
 
